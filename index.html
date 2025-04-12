@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <app-bar title="Notes App"></app-bar>
+
+  <main>
+    <section id="note-form">
+      <note-form></note-form>
+    </section>
+    <section id="notes-container">
+      <h2>Daftar Catatan</h2>
+      <div id="notes-list" class="grid-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Notes App</p>
+  </footer>
+
+  <script src="notes-data.js"></script>
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
